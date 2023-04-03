@@ -1,0 +1,84 @@
+site_name: BMS Documentation
+theme:
+  name: material
+  favicon: assets\favicon.ico
+  logo: assets\logo.png
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: red
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: red
+      accent: lime
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/BMSDocs
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/bookmyshow
+    - icon: fontawesome/brands/linkedin
+      link: https://in.linkedin.com/company/bookmyshow
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - User Documentation : 
+    - User Documentation\BMS Overview.md
+    - User Documentation\User Guides.md
+    - User Documentation\Quick Reference Guides.md
+    - User Documentation\FAQ's.md
+    - User Documentation\Video Tutorials.md
+  - Developer Documentation:
+    - Developer Documentation\Architecture Diagrams.md
+    - Developer Documentation\Tech Stacks.md
+    - Developer Documentation\Databases.md
+    - Developer Documentation\SDK Docs.md
+  - Partner Documentation:
+    - Partner Documentation\Architecture Diagrams.md
+    - Partner Documentation\Tech Stacks.md
+    - Partner Documentation\Databases.md
+    - Partner Documentation\SDK Docs.md
+  - Blogs:
+    - Blogs\Blogs.md
+  - Newsletter:
+    - Newsletter\Newsletter JFM.md
+  - What's New:
+    - What's New\SPICE.md
+    - What's New\New Tech Features.md
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/BMSDocs"  target="_blank" rel="noopener">BMS Documentation</a>
