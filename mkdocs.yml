@@ -19,7 +19,6 @@ theme:
   language: en
   palette: 
     scheme: bms
-
 extra_css:  
   - stylesheets/extra.css
 extra:
