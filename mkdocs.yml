@@ -31,6 +31,8 @@ extra:
       link: https://twitter.com/bookmyshow
     - icon: fontawesome/brands/linkedin
       link: https://in.linkedin.com/company/bookmyshow
+plugins:
+  - glightbox
 
 markdown_extensions:
   - pymdownx.highlight:
