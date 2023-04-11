@@ -1,3 +1,1 @@
-##High Level
-##Low Level
-##Component Level
+title: Architecture Diagrams 
