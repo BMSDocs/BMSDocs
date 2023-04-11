@@ -1,0 +1,53 @@
+
+[data-md-color-scheme="bms"] {
+  --md-primary-fg-color:#1F253A;
+  --md-footer-bg-color: #666666;
+}
+
+.md-header{
+  background-color: #2B3148;;
+}
+.md-search{
+  position: absolute;
+  top: 0%;
+  width: 60%;
+  height: 20%;
+}
+.md-button{
+  border-color: #666666;
+}
+.button {
+  background-color: #8f9fc0;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  position: relative;
+}
+.button5{
+  background-color: #DC354B;
+  border: none;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 80%;}
+.md-banner {
+    position: sticky;
+    inset-inline: 0;
+    top: 0;
+    z-index: 4;
+    display: block;
+    color: var(--md-primary-bg-color);
+    background-color: #2B3148;
+}
