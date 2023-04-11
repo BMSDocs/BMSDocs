@@ -1,4 +1,4 @@
-site_name: " "
+site_name: " BMS Documentation "
 site_url: https://in.linkedin.com/company/bookmyshow
 theme:
   name: material
@@ -20,7 +20,7 @@ theme:
   palette: 
     scheme: bms
 
-extra_css:
+extra_css:  
   - stylesheets/extra.css
 extra:
   generator: false
